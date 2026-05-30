@@ -1,0 +1,24 @@
+ParaView cinematic visualization guide
+======================================
+
+1) Open Room_H2.foam
+2) Click Apply
+3) Color by: T
+4) Representation: Volume
+5) Color Map Editor:
+   - Rescale to Custom Range
+   - Min = 0.001
+   - Max = 0.1 or 1 depending on case
+6) Opacity:
+   - low values transparent
+   - high values visible
+7) Press Play
+8) Save Animation:
+   - Resolution: 1920 x 1080
+   - Frame Rate: 30 fps
+   - Bitrate: 15000 kbps
+
+If Volume is slow:
+- Use Filters > Contour
+- Isovalue T = 0.01
+- Opacity = 0.35
